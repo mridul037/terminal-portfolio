@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function WhoAmI() {
-  const START_DATE = new Date('11-01-2019');
+  const START_DATE = new Date('01-01-2020');
   const today = new Date();
   const [experience, setExperience] = useState<number[]>([]);
   const calculateExperience = () => {
@@ -18,19 +18,18 @@ function WhoAmI() {
   }, []);
   return (
     <div>
-      My name is Akash, I currently live in Bangalore, India 🇮🇳 and work as a
-      frontend engineer at{' '}
+      My name is Mridul, I currently live in Bangalore, India 🇮🇳 and work as a
+      Fullstack engineer at{' '}
       <a
         className="font-medium underline"
         href="https://razorpay.com"
         target="_blank"
         rel="noreferrer"
       >
-        Razorpay
+        SEEID
       </a>
-      , a fintech startup that provides thousands of customer payment solutions
-      to accept, process, and disburse payments, provide credit lines, corporate
-      credit cards and much more. I have a professional experience of{' '}
+      , a USA based startup that provides location based assets tracking service to company
+      and govt organizations for there assets,vehicles and structure's(buildings) 
       {experience[0]}.{experience[1]} years and enjoy working on solving complex
       problems!
       <br />
@@ -41,10 +40,9 @@ function WhoAmI() {
         target="_blank"
         rel="noreferrer"
       >
-        Magic Checkout
+        Backend  
       </a>{' '}
-      team helping with improving the accuracy of analytics & building new &
-      exciting features
+      team helping with improving the backend architecture of the application.
     </div>
   );
 }

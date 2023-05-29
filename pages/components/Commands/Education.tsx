@@ -19,16 +19,7 @@ function Education() {
           </div>
         </div>
       ))}
-      <div className="py-2">
-        <a
-          className="font-medium underline"
-          href="https://www.linkedin.com/in/akash-anand-mane/details/certifications/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Link of all certifications
-        </a>
-      </div>
+     
     </div>
   );
 }

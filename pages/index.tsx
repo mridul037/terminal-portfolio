@@ -17,8 +17,8 @@ export default function Home() {
       className={`xl:p14 flex  min-h-screen flex-col items-center  justify-center p-2  drop-shadow-2xl md:p-8 lg:p-12 ${fira_code.className}`}
     >
       <Head>
-        <title>Akash Mane</title>
-        <meta property="og:title" content="Akash Mane" key="title" />
+        <title>Mridul Shukla</title>
+        <meta property="og:title" content="Mridul shukla" key="title" />
         <meta
           name="description"
           content="Portfolio website in the form of a terminal built by Akash Mane"
@@ -36,7 +36,7 @@ export default function Home() {
             target="_blank"
             href="https://github.com/akashmane2209/terminal-portfolio"
           >
-            🦊 akash@portfolio -- zsh
+            🦊 mridul@portfolio -- zsh
           </a>
         </p>
         <div></div>

@@ -1,6 +1,6 @@
 # Terminal Portfolio Website by Akash Mane
 
-![Terminal Portfolio Website by Akash Mane](https://user-images.githubusercontent.com/49873780/235299267-faf55135-e0aa-458c-b346-3d968653a7a0.gif)
+![Terminal Portfolio Website by Mridul  Shukla](https://user-images.githubusercontent.com/49873780/235299267-faf55135-e0aa-458c-b346-3d968653a7a0.gif)
 
 ![nextjs](https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![ts](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -75,4 +75,4 @@ Here are some inspiration for this kind of terminal website. Only some features 
 
 ## Author
 
-- [@akashmane](linkedin.com/in/akash-anand-mane)
+- [@mridulshukla](https://linkedin.com/in/mridul-shukla-899123174)

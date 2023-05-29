@@ -9,7 +9,7 @@ import Contact from './Commands/Contact';
 import Projects from './Commands/Projects';
 
 function CommandHistoryItem({ command }: { command: string }) {
-  const { history } = useCommandContext();
+  const { history,clearHistory } = useCommandContext();
   const isLatest = history[history.length - 1] === command;
   const getCommandComponent = () => {
     switch (command) {
@@ -27,14 +27,17 @@ function CommandHistoryItem({ command }: { command: string }) {
         return <Projects />;
       case 'gui':
         if (isLatest) {
-          window.open('https://akashmane-gui.vercel.app/', '_blank');
+          window.open('https://mridulsearch.in/', '_blank');
         }
         break;
       case 'download':
         if (isLatest) {
-          window.open('/akash_mane_resume.pdf', '_blank');
+          window.open('/Mridul_Shukla_Resume.pdf', '_blank');
         }
         break;
+      case "clear":
+         clearHistory() 
+         break;
       default:
         return <p>zsh: command not found: {command}</p>;
     }
