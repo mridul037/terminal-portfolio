@@ -1,4 +1,4 @@
-# Terminal Portfolio Website by Akash Mane
+# Terminal Portfolio Website by Mridul Shukla
 
 ![Terminal Portfolio Website by Mridul  Shukla](https://user-images.githubusercontent.com/49873780/235299267-faf55135-e0aa-458c-b346-3d968653a7a0.gif)
 
