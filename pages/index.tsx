@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <a
         className="mt-4 flex items-center rounded-full px-2 py-1 text-xl hover:bg-gray-100 hover:shadow-xl"
-        href="https://github.com/akashmane2209/terminal-portfolio"
+        href="https://github.com/mridul037/terminal-portfolio"
         target="_blank"
       >
         <span className="mr-2 text-xs text-gray-800">Source code </span>
