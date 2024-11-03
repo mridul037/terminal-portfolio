@@ -34,7 +34,6 @@ export default function Home() {
         <p className=" text-center text-xs  hover:underline">
           <a
             target="_blank"
-            href="https://github.com/akashmane2209/terminal-portfolio"
           >
             🦊 mridul@portfolio -- zsh
           </a>
